@@ -1,15 +1,15 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>Hello Vue in CodeSandbox!</p>
-    <h3>Hello here is Lyndon</h3>
+  <nav>
+
+  </nav>
   
   </div>
 </template>
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "MyHeader",
   props: {
     msg: String
   }

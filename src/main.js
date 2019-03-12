@@ -4,19 +4,19 @@ import VueRouter from "vue-router";
 
 Vue.config.productionTip = false;
 
-Vue.use(VueResource);
 Vue.use(VueRouter);
 
-const routes = [
-  { path: "/", component: Home },
-  { path: "/dashboard", component: Dashboard }
-];
-
+const routes = [ ];
 const router = new VueRouter({
   routes,
   mode: "history"
 });
 
+Vue.config.productionTip = false;
+
 new Vue({
-  render: h => h(App)
+  render: h => h(App),
+  router
 }).$mount("#app");
+
+

@@ -1,22 +1,17 @@
 <template>
   <div id="app">
-    <img width="25%" src="./assets/logo.png">
-     <MyHeader />
-      <router-view></router-view>
-    <HelloWorld/>
-    
+    <MyHeader />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
-import Blog from "./components/Blog"
+import MyHeader from "./components/MyHeader";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
-    Blog
+    MyHeader
   }
 };
 </script>
