@@ -3,11 +3,12 @@ import VueRouter from "vue-router";
 import App from "./App.vue";
 
 import Jack from "./components/Jack";
+import Jack from "./components/matthew/Matthew";
 
 Vue.use(VueRouter);
 
 const routes = [
-  { path: "/jack", component: Jack }
+  { path: "/jack", component: Jack }, { path: "/matthew", component: Matthew }
 ];
 
 const router = new VueRouter({
