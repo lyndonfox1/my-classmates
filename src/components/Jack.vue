@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-  
+    <img src="https://www.insidedogsworld.com/wp-content/uploads/2017/06/German-Shepherd-Standard-Coat-GSC-1000x575-1-1-1-1.jpg">
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+
 
 export default {
-  name: "App",
+  name: "Jack",
   components: {
-    HelloWorld
+
   }
 };
 </script>
